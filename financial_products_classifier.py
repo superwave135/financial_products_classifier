@@ -7,7 +7,7 @@ from sklearn.metrics import accuracy_score, classification_report
 
 # Generate synthetic dataset
 np.random.seed(42)
-n_samples = 300
+n_samples = 500
 
 # Features: volatility, returns, liquidity
 volatility = np.random.rand(n_samples)
